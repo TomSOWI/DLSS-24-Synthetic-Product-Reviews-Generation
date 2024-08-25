@@ -46,15 +46,15 @@ The Jupyter Notebooks we used for all our computation, analysis, and visualizati
   * Topic modeling using BERTopic
 * [gpt-2_fine-tune.ipynb](): Notebook for fine-tuning GPT-2. Note that the fine-tuning with 100,000 reviews takes roughly 2-3 days using two NVIDIA A40 GPUs (48 GB).
 
-**Classification:**
+**Classification: (directory)**
 * [sentiment.ipynb](): Notebook for classifying the Amazon fashion item reviews to randomly sample by sentiment using SiEBERT (see paper for more information)
 * [topic_modeling.ipynb](): Notebook for topic modelling using BERTopic
 
-**Review Generation:**
+**Review Generation: (directory)**
 * [gpt-2_review_generation.ipynb](): Notebook for generating synthetic product reviews using GPT-2 Medium and calculating perplexity.
 * [llama-3_review_generation.ipynb](): Notebook for generating synthetic product reviews using LLaMA 3 8B and calculating perplexity. Note that the initialization of LLaMA 3 8B in Kaggle with an NVIDIA P100 GPU (16GB) takes roughly 50 minutes and the generation of 10,000 synthetic reviews takes roughly 20 hours.
 
-**Review Analysis:**
+**Review Analysis: (directory)**
 * [stat_evaluation.ipynb](): Notebook for the statistical evaluation of the synthetic product reviews, including:
   * Statistical tendencies (Zipf's law)
   * Linguistic features (average length, type-token ratio, verb and noun usage, and readability)
