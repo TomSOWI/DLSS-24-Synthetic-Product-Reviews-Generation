@@ -12,7 +12,7 @@ Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://hugging
 Nore that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on Hugging Face does not work.
 
 ## Data
-In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replication-Material/tree/main/Data), we have made available our main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/zpVAefWwFEYfIhTRTc0RfJ1h4rXzh6kJ/7VRz2eFaGxxjR11Xtygq65lAszhLPaIi-7LuAL9qlnQs) :cloud:. Below you will find a brief overview of all the data files:
+In the folder [Data](), we have made available our main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/zpVAefWwFEYfIhTRTc0RfJ1h4rXzh6kJ/7VRz2eFaGxxjR11Xtygq65lAszhLPaIi-7LuAL9qlnQs) :cloud:. Below you will find a brief overview of all the data files:
 
 **Main Directory:**
 
@@ -31,7 +31,7 @@ In the folder [Data](https://github.com/valentin-velev29/DLSS-24-Project-Replica
 * [market_analysis.xlsx](): Contains the results from our market analysis (see our paper for more information)
 
 ## Notebooks
-The Jupyter Notebooks we used for all our computation, analysis, and visualization are in the [Main Branch](https://github.com/valentin-velev29/DLSS-24-GPT-2-Project) and in the folders [Classification]() and [Synthetic Product Review Generation and Analysis](). Below you will find a brief overview of the Jupyter Notebooks:
+The Jupyter Notebooks we used for all our computation, analysis, and visualization are available in mutliple (sub)directories. The main Notebooks can be found in the [Main Branch](). The Notebooks used for the intial classification (sentiment, topics) and in the folder [Classification](). The Notebooks used for generating the synthetic product review are available in [Review Generation](). Finally, the Notebooks for the analysis of the synthetic product reviews are in [Review Analysis](). Below you will find a brief overview of all the Jupyter Notebooks:
 
 **Main Branch:**
 * [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
@@ -59,7 +59,7 @@ The Jupyter Notebooks we used for all our computation, analysis, and visualizati
   * Statistical tendencies (Zipf's law)
   * Linguistic features (average length, type-token ratio, verb and noun usage, and readability)
   * MAUVE
-  * Inter-rater reliability and PERMANOVA (for human evaluation)
+  * Inter-rater reliability (for human evaluation)
 * [market_analysis_part1.ipynb](): First Notebook for the market analysis, including:
   * ...
   * ...
@@ -74,6 +74,7 @@ In the folder [Plots](), we have uploaded all our plots. Below you will find a b
 * [rating_distribution.pdf](): Figure 1 (left side) &ndash; Rating distribution
 * [rating_distribution_sentiment.pdf](): Figure 1 (right side) &ndash; Rating distribution by sentiment
 * [wordcloud.pdf](): Figure 2 &ndash; Word cloud of all real reviews
+* [sentiment_distribution_review_types.pdf](): Figure 3 &ndash; Distribution of sentiment by review type (Real, GPT-2, LLaMA 3)
 
 **Plots from the Appendix:**
 * [hist_rev_len.pdf](): Figure A1 &ndash; Review length distribution
