@@ -14,7 +14,7 @@ Nore that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on 
 ## Data
 In the folder [Data](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/tree/main/Data), we have made available our main datasets. The remaining datasets are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/zpVAefWwFEYfIhTRTc0RfJ1h4rXzh6kJ/7VRz2eFaGxxjR11Xtygq65lAszhLPaIi-7LuAL9qlnQs) :cloud:. Below you will find a brief overview of all the data files:
 
-**Root Directory:**
+**Directory:**
 
 * [preprocessed_reviews.csv](): Contains our preprocessed data with 100,000 Amazon fashion item reviews
 * [preprocessed_reviews_topics.parquet](): Contains ...
@@ -68,7 +68,7 @@ The Jupyter Notebooks we used for all our computation, analysis, and visualizati
   * Bar chart of the sentiments by review type (Real, GPT-2, LLaMA 3)
 
 ## Plots
-In the folder [Plots](), we have uploaded all our plots. Below you will find a brief overview of all plots:
+In the folder [Plots](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/tree/main/Plots), we have uploaded all our plots. Below you will find a brief overview of all plots:
 
 **Plots from the Paper:**
 * [rating_distribution.pdf](): Figure 1 (left side) &ndash; Rating distribution
