@@ -7,7 +7,7 @@
 The Appendix for our paper is available in the file [appendix.pdf]().
 
 ## Fine-Tuned GPT-2 Medium
-Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://huggingface.co/TomData/GPT2-review) ![Hugging Face Logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg).
+Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://huggingface.co/TomData/GPT2-review) :hugs:.
 
 Nore that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on Hugging Face does not work.
 
