@@ -3,6 +3,8 @@
 
 **Authors:** Carl George-Lembach, Tom Klotz, Julia Schleißheimer, and Valentin Velev
 
+**Aim of the Project:** ...
+
 ## Appendix
 The Appendix for our paper is available in the file [appendix.pdf]() :page_facing_up:.
 
@@ -39,7 +41,7 @@ In the folder [Data](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Review
 * [market_analysis_rater2.xlsx](): Contains the results from rater 2 for our market analysis
 
 ## Notebooks
-The Jupyter Notebooks we used for all our computation, analysis, and visualization are available in mutliple (sub)directories. The main Notebooks can be found in the [Main Branch](). The Notebooks used for the intial classification (sentiment, topics) and in the folder [Classification](). The Notebooks used for generating the synthetic product review are available in [Review Generation](). Finally, the Notebooks for the analysis of the synthetic product reviews are in [Review Analysis](). Below you will find a brief overview of all the Jupyter Notebooks:
+The Jupyter Notebooks we used for all our computation, analysis, and visualization are available the directory [Notebooks](), including the main Notebooks, the Notebooks used for classification, the Notebooks used for synthetic product review generation, and the Notebooks used for the analysis of the product reviews. Below you will find a brief overview of all the Jupyter Notebooks:
 
 **Main Notebooks:**
 * [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
