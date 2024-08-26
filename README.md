@@ -1,7 +1,7 @@
 # **Replication material and Appendix for the paper "Synthetic Product Review Generation for Market Analysis: A GPT-2 and LLaMA 3 Approach"**
 **Description:** This repository contains the replication materials and the Appendix for our final project for the course "Deep Learning for the Social Sciences" (SuSe 2024) at the University of Konstanz.
 
-**Authors:** George-Lembach, Carl, Klotz, Tom, Schleißheimer, Julia, and Velev, Valentin
+**Authors:** Carl George-Lembach, Tom Klotz, Julia Schleißheimer, and Valentin Velev
 
 ## Appendix
 The Appendix for our paper is available in the file [appendix.pdf]() :page_facing_up:.
