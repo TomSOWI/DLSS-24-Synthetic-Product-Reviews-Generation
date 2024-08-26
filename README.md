@@ -43,7 +43,7 @@ In the folder [Data](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Review
 * [market_analysis_rater2.xlsx](): Contains the results from rater 2 for our market analysis
 
 ## Notebooks
-The Jupyter Notebooks we used for all our computation, analysis, and visualization are available the directory [Notebooks](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/tree/main/Notebooks) :notebook:, including the main Notebooks, the Notebooks used for classification, the Notebooks used for synthetic product review generation, and the Notebooks used for the analysis of the product reviews. Below you will find a brief overview of all the Jupyter Notebooks:
+In the folder [Notebooks](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/tree/main/Notebooks) :notebook:, are all tThe Jupyter Notebooks we used for all our computation, analysis, and visualization, including the main Notebooks, the Notebooks used for classification, the Notebooks used for synthetic product review generation, and the Notebooks used for the analysis of the product reviews. Below you will find a brief overview of all the Jupyter Notebooks:
 
 **Main Notebooks:**
 * [ETL.ipynb](): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
