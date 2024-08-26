@@ -20,8 +20,8 @@ In the folder [Data](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Review
 
 **Main Datasets:**
 
-* [preprocessed_reviews.csv](): Contains our preprocessed data with 100,000 Amazon fashion item reviews
-* [preprocessed_reviews_topics.parquet](): Contains ...
+* [preprocessed_reviews.parquet](): Contains our preprocessed data with 100,000 Amazon fashion item reviews
+* [preprocessed_reviews_topics.parquet](): Contains our preprocessed data with a topic assigned to each review by using BERTopic
 * [topic_modeling_results.csv](): Contains the results of BERTopic on the 100,000 Amazon product reviews
 
 **Generated Reviews:**
