@@ -54,11 +54,11 @@ In the folder [Data](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Review
 In the folder [Notebooks](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/tree/main/Notebooks) :notebook:, are all tThe Jupyter Notebooks we used for all our computation, analysis, and visualization, including the main Notebooks, the Notebooks used for classification, the Notebooks used for synthetic product review generation, and the Notebooks used for the analysis of the product reviews. Below you will find a brief overview of all the Jupyter Notebooks:
 
 **Main Notebooks:**
-* [ETL.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/ETL.ipynb): Notebook for data preprocessing / extract-transform-load (ETL) pipeline including:
+* [ETL.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/ETL.ipynb): Notebook for data preprocessing / extract-transform-load (ETL) pipeline, including:
   * Data acquisition
   * Data cleaning
   * Preparation of final dataset
-* [EDA.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/EDA.ipynb): Notbook for exploratory data analysis (EDA) including:
+* [EDA.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/EDA.ipynb): Notbook for exploratory data analysis (EDA), including:
   * Average length of reviews and standard deviation of review length
   * Histogram of review length distribution
   * Rating distribution (overall and by sentiment)
@@ -71,7 +71,7 @@ In the folder [Notebooks](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-R
 * [topic_modeling.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/topic_modeling.ipynb): Notebook for topic modelling using BERTopic. This Notebook was run in Kaggle.
 
 **Notebooks for Review Generation:**
-* [gpt-2_review_generation.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/gpt-2_review_generation.ipynb): Notebook for generating synthetic product reviews using GPT-2 Medium and calculating perplexity.
+* [gpt-2_review_generation.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/gpt-2_review_generation.ipynb): Notebook for generating synthetic product reviews using GPT-2 Medium and calculating perplexity. This Notebook was run in Kaggle.
 * [llama-3_review_generation.ipynb](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/Notebooks/llama-3_review_generation.ipynb): Notebook for generating synthetic product reviews using LLaMA 3 8B and calculating perplexity. Note that the initialization of LLaMA 3 8B in Kaggle with an NVIDIA P100 GPU (16GB) takes roughly 50 minutes and the generation of 10,000 synthetic reviews takes roughly 20 hours.
 
 **Notebooks for Review Analysis:**
