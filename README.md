@@ -3,7 +3,9 @@
 
 **Authors:** Carl George-Lembach, Tom Klotz, Julia Schleißheimer, and Valentin Velev
 
-**Aim of the Project:** ...
+**Aim of the Project:** Generate synthetic product reviews using GPT-2 Medium and LLaMA 3 8B, compare them with real product reviews, and assess their suitablility for market analysis
+
+**Main Dataset:** Amazon fashion category from McAuley Lab's Amazon Reviews dataset (available [here](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023))
 
 ## Appendix
 The Appendix for our paper is available in the file [appendix.pdf]() :page_facing_up:.
