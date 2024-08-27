@@ -8,7 +8,7 @@
 **Main Dataset:** Amazon fashion category from McAuley Lab's Amazon Reviews dataset (available [here](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023))
 
 ## Appendix
-The Appendix for our paper is available in the file [appendix.pdf]() :page_facing_up:.
+The Appendix for our paper is available in the file [DLSS-24-Final-Project-Group-3-NLP-Appendix.pdf](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/blob/main/DLSS-24-Final-Project-Group-3-NLP-Appendix.pdf) :page_facing_up:.
 
 ## Fine-Tuned GPT-2 Medium
 Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://huggingface.co/TomData/GPT2-review) :hugs:.
