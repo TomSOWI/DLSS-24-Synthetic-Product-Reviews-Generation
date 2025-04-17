@@ -13,7 +13,7 @@ The Appendix for our paper is available in the file [DLSS-24-Final-Project-Group
 ## Fine-Tuned GPT-2 Medium
 Our fine-tuned GPT-2 Medium model is available on [Hugging Face](https://huggingface.co/TomData/GPT2-review) :hugs:.
 
-Nore that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on Hugging Face does not work.
+Note that since we used PyTorch to fine-tune GPT-2 Medium, the Inference API on Hugging Face does not work.
 
 ## Data
 In the folder [Data](https://github.com/TomSOWI/DLSS-24-Synthetic-Product-Reviews-Generation/tree/main/Data) :bar_chart:, we have made available our main datasets. The remaining datasets (from the ETL Notebook) are available on [Synology Cloud](https://T34278926.quickconnect.to/d/s/zpVAefWwFEYfIhTRTc0RfJ1h4rXzh6kJ/7VRz2eFaGxxjR11Xtygq65lAszhLPaIi-7LuAL9qlnQs) :cloud:. Below you will find a brief overview of all the data files:
